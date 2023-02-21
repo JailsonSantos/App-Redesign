@@ -1,27 +1,70 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">Ecommerce-Apple-Redesign</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center">
+  Um E-commerce da Apple com Redesign que oferece produtos como iPhone, Smart Watch, iPad, entre outros produtos, através dessa plataforma o usuário pode escolher seus items e acessórios, adicionar ao carrinho de compras e finalizar suas compras em poucos minutos.
+</p>
 
-## Deploy your own
+<h2 align="center">Tabela de Conteúdos</h2>
+<p align="center">
+  • <a href="#sobre">Sobre</a>
+  • <a href="#funcionalidades">Funcionalidades</a>
+  • <a href="#layout">Layout</a>
+  • <a href="#tecnologias">Tecnologias</a> 
+  • <a href="#status">Status do Projeto</a> 
+  • <a href="#autor">Autor</a>
+  • <a href="#licenca">Licença</a>
+</p>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+<h2 align="center" id="sobre">Sobre</h2>
+<p align="justify"> Um E-commerce da Apple com Redesign que oferece produtos como iPhone, Smart Watch, iPad, entre outros produtos, através dessa plataforma o usuário pode escolher seus items e acessórios, adicionar ao carrinho de compras e finalizar suas compras em poucos minutos..</p>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<h3 align="left" id="funcionalidades">Funcionalidades</h3>
 
-## How to use
+- [x] Fazer Login;
+- [x] Visualizar os produtos cadastrados;
+- [x] Selecionar os produtos por categorias;
+- [x] Selecionar quantidade de produtos;
+- [x] Adicionar os produtos ao carrinho de compras;
+- [x] Remover os produtos do carrinho de compras;
+- [x] Finalizar a compra;
+- [x] Fazer logout;
+- [x] Fazer a busca de produtos no E-commerce (Ainda em desenvolvimento);
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+<h3 align="left" id="layout">Versao Web</h3>
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/11697713/220417827-369d1377-35d2-49cc-8fed-ce4dcfa228fb.gif)
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+<h3 align="left" id="tecnologias">🛠 Tecnologias</h3>
+<p align="justify">As seguintes Tecnologias e APIS que foram usadas na construção do projeto</p>
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- [Next.Js](https://nextjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/docs/installation)
+- [Redux-Toolkit](https://redux-toolkit.js.org/usage/usage-guide)
+- [Nextjs_progresbar](https://www.npmjs.com/package/nextjs-progressbar)
+- [React-Redux](https://react-redux.js.org/introduction/getting-started)
+- [Rect-Hot-Toast](https://www.npmjs.com/package/react-hot-toast)
+- [Sanity](https://www.sanity.io/plugins/next-auth-sanity)
+
+<h2 align="left" id="status">Status do Projeto</h2>
+<p align="left"> 🚧  Next.js & ReactJS 🚀 Versão 1.0 Finalizada.  🚧.</p>
+
+<h2 align="left" id="autor">🦸 Autor</h2>
+<a href="https://github.com/JailsonSantos">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11697713?s=96&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Jailson Santos</b></sub></a> <a href="https://www.linkedin.com/in/jailson-santos-726395104/" title="Jailson Santos">🚀</a>
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jailson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jailson-santos-726395104/)](https://www.linkedin.com/in/jailson-santos-726395104/) 
+[![Gmail Badge](https://img.shields.io/badge/-jailson.ads007@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jailson.ads007@gmail.com)](mailto:jailson.ads007@gmail.com)
+
+
+<h2 align="left" id="licenca">📝 Licença</h2>
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Jailson Santos 👋🏽 [Entre em contato!](https://www.linkedin.com/in/jailson-santos-726395104/)
