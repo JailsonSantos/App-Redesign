@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import Image from 'next/image';
+import LogoImage from '../assets/iphone.png';
 
 function Landing() {
   return (
@@ -25,7 +26,7 @@ function Landing() {
       </div>
 
       <div className="relative hidden h-[450px] w-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]">
-        <Image src="/iphone.png" alt="Iphone X-14" fill style={{ objectFit: 'contain' }} />
+        <Image src={LogoImage} alt="Iphone X-14" fill style={{ objectFit: 'contain' }} />
       </div>
     </section>
   )

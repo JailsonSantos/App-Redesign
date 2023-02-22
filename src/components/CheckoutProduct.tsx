@@ -99,8 +99,6 @@ function CheckoutProduct({ item }: Props) {
 
   const handleShowOrderSummary = () => {
     setShowOrderSummary(!showOrderSummary);
-
-    console.log(item.description[0]);
   };
 
 
