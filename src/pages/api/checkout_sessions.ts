@@ -1,6 +1,6 @@
 import Stripe from 'stripe';
-import type { NextApiRequest, NextApiResponse } from 'next';
 import { urlFor } from '../../libs/sanity';
+import type { NextApiRequest, NextApiResponse } from 'next';
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: "2022-11-15" // or 2020-08-01
