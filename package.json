@@ -11,6 +11,7 @@
     "@portabletext/react": "^2.0.1",
     "@reduxjs/toolkit": "^1.9.2",
     "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.5.0",
     "@stripe/stripe-js": "^1.46.0",
     "next": "latest",
     "next-auth": "^4.19.2",
@@ -24,6 +25,7 @@
     "react-redux": "^8.0.5",
     "react-responsive": "^9.0.2",
     "redux-persist": "^6.0.0",
+    "sanity": "^3.5.0",
     "stripe": "^11.10.0"
   },
   "devDependencies": {

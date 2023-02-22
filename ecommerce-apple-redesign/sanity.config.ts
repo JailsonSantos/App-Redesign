@@ -1,7 +1,28 @@
-import { defineConfig } from 'sanity';
+// sanity.config.js
+import { defineConfig } from "sanity";
+import { deskTool } from 'sanity/desk'
+import { visionTool } from '@sanity/vision';
+import { schemaTypes } from './schemas';
+
+export default defineConfig({
+  title: "blog",
+  projectId: "80ji1j7a",
+  dataset: "production",
+  plugins: [
+    deskTool(),
+    visionTool(),
+  ],
+  schema: {
+    types: schemaTypes,
+  },
+});
+
+
+
+/* import { defineConfig } from 'sanity'
 import { deskTool } from 'sanity/desk';
 import { schemaTypes } from './schemas';
-import { visionTool } from '@sanity/vision';
+
 
 export default defineConfig({
   name: 'default',
@@ -14,25 +35,8 @@ export default defineConfig({
     types: schemaTypes,
   },
 
-  plugins: [deskTool(), visionTool()],
-})
-
-/* import { deskTool } from 'sanity/desk';
-import { schemaTypes } from './schemas';
-import { visionTool } from '@sanity/vision';
-import { defineConfig } from 'sanity/lib/exports';
-
-export default defineConfig({
-  name: 'default',
-  title: 'Ecommerce Apple Redesign',
-
-  projectId: 'i9zqwtvb',
-  dataset: 'production',
-
-  plugins: [deskTool(), visionTool()],
-
-  schema: {
-    types: schemaTypes,
-  },
-})
- */
+  plugins: [
+    deskTool(),
+    visionTool()
+  ],
+}); */
