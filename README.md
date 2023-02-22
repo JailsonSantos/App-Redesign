@@ -31,9 +31,13 @@
 - [x] Fazer a busca de produtos no E-commerce (Ainda em desenvolvimento);
 
 
-<h3 align="left" id="layout">Versao Web</h3>
+<h3 align="left" id="layout">Versão Web</h3>
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/11697713/220417827-369d1377-35d2-49cc-8fed-ce4dcfa228fb.gif)
+
+<h3 align="left" id="layout">Versão Mobile</h3>
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/11697713/220701251-68060e57-68f5-48a1-b29a-989bcb6b9e1c.gif)
 
 <h3 align="left" id="tecnologias">🛠 Tecnologias</h3>
 <p align="justify">As seguintes Tecnologias e APIS que foram usadas na construção do projeto</p>
